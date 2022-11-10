@@ -14,7 +14,7 @@ body:
     attributes:
       label: name
       description: What is your name?
-      placeholder: ex.Dwayne Johnson
+      placeholder: e.g.Dwayne Johnson
     validations:
       required: true
   - type: input
@@ -22,7 +22,7 @@ body:
     attributes:
       label: Affiliated organization
       description: What is your affiliated organization?
-      placeholder: ex. xxx Ltd. 
+      placeholder: e.g. xxx Ltd. 
     validations:
       required: true
   - type: input
@@ -38,7 +38,7 @@ body:
     attributes:
       label: Jurisdiction of Organization
       description: Where are your organization located?
-      placeholder: ex. American
+      placeholder: e.g. American
     validations:
       required: true
   - type: input

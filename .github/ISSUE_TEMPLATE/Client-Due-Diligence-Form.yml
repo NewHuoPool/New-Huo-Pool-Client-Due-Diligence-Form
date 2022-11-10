@@ -100,7 +100,7 @@ body:
   - type: input
     id: 
     attributes:
-      label: 
+      label: Nodes of the Filecoin miners
       description: Nodes of the Filecoin miners to which you expect to place storage orders in spending the allocated DataCap.
       placeholder: 
     validations:
@@ -116,16 +116,16 @@ body:
   - type: input
     id: 
     attributes:
-      label: 
-      description: How do you plan on choosing the storage providers?
+      label: How do you plan on choosing the storage providers?
+      description: 
       placeholder: 
     validations:
       required: true
   - type: input
     id: 
     attributes:
-      label: 
-      description: On-chain address for first allocation.
+      label: On-chain address for first allocation.
+      description: 
       placeholder: 
     validations:
       required: true

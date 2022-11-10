@@ -16,23 +16,31 @@ body:
       description: What is your name?
       placeholder: ex.Dwayne Johnson
     validations:
-      required: false
+      required: true
   - type: input
-    id: Affiliated-tst
+    id: Affiliated-organization
     attributes:
       label: Affiliated organization
       description: What is your affiliated organization?
       placeholder: ex. xxx Ltd. 
     validations:
-      required: false
+      required: true
+  - type: input
+    id: Registration-number
+    attributes:
+      label: Registration number
+      description: What is your Registration number?
+      placeholder: 
+    validations:
+      required: true
   - type: input
     id: Country
     attributes:
-      label: Country
-      description: Where are your or your organization located?
+      label: Jurisdiction of Organization
+      description: Where are your organization located?
       placeholder: ex. American
     validations:
-      required: false
+      required: true
   - type: input
     id: contact
     attributes:
@@ -40,47 +48,84 @@ body:
       description: How can we get in touch with you if we need more info?
       placeholder: ex. email@example.com
     validations:
-      required: false
-  - type: textarea
-    id: what-happened
+      required: true
+  - type: input
+    id: principal-business
     attributes:
-      label: What happened?
-      description: Also tell us, what did you expect to happen?
-      placeholder: Tell us what you see!
-      value: "A bug happened!"
+      label: principal business
+      description: Please describe the principal business.
+      placeholder: 
     validations:
       required: true
-  - type: dropdown
-    id: version
+  - type: input
+    id: 
     attributes:
-      label: Version
-      description: What version of our software are you running?
-      options:
-        - 1.0.2 (Default)
-        - 1.0.3 (Edge)
+      label: DataCap requested for allocation
+      description: 
+      placeholder: 
     validations:
       required: true
-  - type: dropdown
-    id: browsers
+  - type: input
+    id: 
     attributes:
-      label: What browsers are you seeing the problem on?
-      multiple: true
-      options:
-        - Firefox
-        - Chrome
-        - Safari
-        - Microsoft Edge
-  - type: textarea
-    id: logs
+      label: The sample of the data
+      description: Can you share a sample of the data? A link to a file, an image, a table, etc., are good ways to do this.
+      placeholder: 
+    validations:
+      required: true
+  - type: input
+    id: 
     attributes:
-      label: Relevant log output
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
-      render: shell
-  - type: checkboxes
-    id: terms
+      label: Sources of the data
+      description: Please describe the sources of the data to be stored on Filecoin.
+      placeholder: 
+    validations:
+      required: true
+  - type: input
+    id: 
     attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
-      options:
-        - label: I agree to follow this project's Code of Conduct
-          required: true
+      label: Ownership of data
+      description: Whether you own the data?
+      placeholder: 
+    validations:
+      required: true
+  - type: input
+    id: 
+    attributes:
+      label: Confidentiality
+      description: Whether the data to be stored on Filecoin is subject to confidentiality, trade secret, national secrets or national security?
+      placeholder: 
+    validations:
+      required: true
+  - type: input
+    id: 
+    attributes:
+      label: 
+      description: Nodes of the Filecoin miners to which you expect to place storage orders in spending the allocated DataCap.
+      placeholder: 
+    validations:
+      required: true
+  - type: input
+    id: 
+    attributes:
+      label: In which geographies (countries, regions) do you plan on making storage deals?
+      description: 
+      placeholder: 
+    validations:
+      required: true
+  - type: input
+    id: 
+    attributes:
+      label: 
+      description: How do you plan on choosing the storage providers?
+      placeholder: 
+    validations:
+      required: true
+  - type: input
+    id: 
+    attributes:
+      label: 
+      description: On-chain address for first allocation.
+      placeholder: 
+    validations:
+      required: true

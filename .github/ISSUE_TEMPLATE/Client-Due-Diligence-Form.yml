@@ -30,7 +30,7 @@ body:
     attributes:
       label: Proof of organizational affiliation
       description: Please email verification from your organization’s email to NewHuoPool@hotmail.com.
-      placeholder: 
+      placeholder: Sent/Unable to send(reason)
     validations:
       required: true
   - type: input

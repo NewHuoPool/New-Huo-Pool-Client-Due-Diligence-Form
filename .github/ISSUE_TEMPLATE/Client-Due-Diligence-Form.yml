@@ -12,7 +12,7 @@ body:
   - type: input
     id: name
     attributes: 
-      label: name
+      label: Name
       description: What is your name?
       placeholder: e.g.Dwayne Johnson
     validations:

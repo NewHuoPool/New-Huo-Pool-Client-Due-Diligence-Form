@@ -17,6 +17,14 @@ body:
       placeholder: e.g.Dwayne Johnson
     validations:
       required: true
+ - type: input
+    id: 
+    attributes:
+      label: Github Handle
+      description: What is your Github Handle?
+      placeholder:
+    validations:
+      required: true
   - type: input
     id: Affiliated-organization
     attributes:
@@ -26,7 +34,7 @@ body:
     validations:
       required: true
   - type: input
-    id: Registration-number
+    id: 
     attributes:
       label: Proof of organizational affiliation
       description: Please email verification from your organization’s email to NewHuoPool@hotmail.com.

@@ -1,6 +1,6 @@
 name: New Huo Pool Client Due Diligence Form
 description: New Huo Pool Client Due Diligence
-title: "[New Huo Pool Client Due Diligence Form]:Client Name"
+title: "[New Huo Pool Client Due Diligence Form]:LDN Name /Issue # "
 labels: ["DataCap", "Client"]
 assignees:
   - octocat

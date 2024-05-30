@@ -60,7 +60,7 @@ body:
   - type: input
     id: 
     attributes:
-      label: SPs info.
+      label: SPs info
       description: Please list all Storage Providers who you plan to use to store the datasetcopies(Miner ID/Entity Name/Email/Regions）
       placeholder: 
     validations:

@@ -1,6 +1,6 @@
 name: New Huo Pool Client Due Diligence Form
 description: New Huo Pool Client Due Diligence
-title: "[New Huo Pool Client Due Diligence Form]:LDN Name /Issue # "
+title: "[New Huo Pool Client Due Diligence Form]:"
 labels: ["DataCap", "Client"]
 assignees:
   - octocat
@@ -10,34 +10,26 @@ body:
       value: 
         Thanks for taking the time to fill out this form!
   - type: input
-    id: name
+    id: 
     attributes: 
-      label: Name
+      label: Applicant name
       description: What is your name?
-      placeholder: e.g.Dwayne Johnson
+      placeholder:
     validations:
       required: true
   - type: input
-    id: Affiliated-organization
+    id:  
     attributes:
       label: Affiliated organization
-      description: What is your affiliated organization?
-      placeholder: e.g. xxx Ltd. 
+      description: What organization are you affiliated with?
+      placeholder:  
     validations:
       required: true
   - type: input
     id: 
     attributes:
-      label: Proof of organizational affiliation
-      description: Please email verification from your organization’s email to NewHuoPool@hotmail.com
-      placeholder: Sent/Unable to send(reason)
-    validations:
-      required: true
-  - type: input
-    id: 
-    attributes:
-      label: Dataset size
-      description: What is the size of the original dataset?
+      label: Briefly share about your organization
+      description: 
       placeholder: 
     validations:
       required: true
@@ -52,8 +44,33 @@ body:
   - type: input
     id: 
     attributes:
-      label: Confidentiality
-      description: Whether the data to be stored on Filecoin is subject to confidentiality, trade secret, national secrets or national security?
+      label: Client Business Name
+      description: 
+      placeholder: 
+    validations:
+      required: true
+  - type: input
+    id: 
+    attributes:
+      label: Briefly share about your client's organization
+      description: 
+      placeholder: 
+    validations:
+      required: true
+  - type: input
+    id: 
+    attributes:
+      label: Is this a public dataset or Enterprise dataset?
+      description: 
+      placeholder: 
+    validations:
+      required: true
+  - type: input
+    id: 
+    attributes:
+      label: Are you legally authorized to represent and store these datasets?
+             Please send an email with the project # to [NewHuoPool@hotmail.com] from the primary email associated with the dataset.
+      description: 
       placeholder: 
     validations:
       required: true
@@ -61,7 +78,7 @@ body:
     id: 
     attributes:
       label: SPs info
-      description: Please list all Storage Providers who you plan to use to store the datasetcopies(Miner ID/Entity Name/Email/Regions）
+      description: Please list all Storage Providers who you plan to use to store the datasetcopies(Miner ID/Entity Name/location）
       placeholder: 
     validations:
       required: true

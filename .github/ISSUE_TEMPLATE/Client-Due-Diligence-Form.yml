@@ -69,8 +69,7 @@ body:
     id: 
     attributes:
       label: Are you legally authorized to represent and store these datasets?
-             Please send an email with the project # to NewHuoPool@hotmail.com from the primary email associated with the dataset.
-      description: 
+      description: Please send an email with the project # to NewHuoPool@hotmail.com from the primary email associated with the dataset.
       placeholder: 
     validations:
       required: true
